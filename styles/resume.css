@@ -1,0 +1,29 @@
+#all {
+    font-family: "K2D";
+}
+
+#logo {
+    float: right;
+}
+
+
+@media only screen and (min-width: 1000px) {
+    #resume {
+        position: absolute;
+        padding-top: 100px;
+        left: 10%;
+    }
+
+    #contact1 {
+        display: none;
+    }
+    .contact {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    #resume {
+        display: none;
+    }
+}

@@ -1,0 +1,257 @@
+#all {
+    font-family: 'K2D';
+}
+
+img {
+    float: right;
+    margin-right: 10px;
+}
+
+#header {
+    padding-left: 95px;
+}
+
+#name {
+    font-size: 64px;
+    position: relative;
+    padding-top: 75px;
+}
+
+#title {
+    margin-top: -45px;
+    padding-left: 60px;
+}
+
+#quote {
+    float: right;
+    padding-right: 50px;
+}
+
+.quotation {
+    font-size: 84px;
+    margin: 0px;
+}
+
+#qRight {
+    float: right;
+}
+
+#why {
+    margin-top: -15px;
+}
+
+#beginning {
+    padding-right: 15px;
+    margin-left: -15px;
+}
+
+#end {
+    padding-top: 50px;
+    float: right;
+}
+
+#scroll {
+    position: absolute;
+    top: 92%;
+    left: 25%;
+}
+
+#tote {
+    position: absolute;
+    top: 75%;
+    left: 30%;
+    width: 609px;
+    height: 984px;
+    padding-bottom: 10px;
+}
+
+#body {
+    width: 609px;
+    height: 621px;
+    background-color: #F0D9B5;
+    position: absolute;
+    top: 25%;
+}
+
+#handle {
+    width: 304px;
+    height: 587px;
+    border: 20px solid #F0D9B5;
+    border-radius: 170px / 300px;
+    position: absolute;
+    top: 0%;
+    left: 20%;
+}
+
+#pPocket {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    cursor: pointer;
+}
+
+#pPocket1 {
+    background-color: #FCAF3B;
+    width: 196px;
+    height: 174px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#pPocket2 {
+    background-color: #FCAF3B;
+    width: 196px;
+    height: 52px; 
+    border-radius: 200px / 100px;
+    position: absolute;
+    left: 0.2%;
+    top: 80%;
+}
+
+#aPocket {
+    background-color: #91B995;
+    width: 120px;
+    height: 141px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 25%;
+    left: 70%;
+    cursor: pointer;
+}
+
+#cPocket {
+    background-color: #7FC1FD;
+    width: 241px;
+    height: 107px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    cursor: pointer;
+}
+
+#rPocket {
+    height: 115px;
+    position: absolute;
+    top: 60%;
+    left: 60%;
+    cursor: pointer;
+}
+
+
+#rPocket1 {
+    background-color: #E98989;
+    width: 182px;
+    height: 111px;
+    position: absolute;
+    top: 40%;
+}
+
+#rPocket2 {
+    position: absolute;
+    top: 80%;
+    padding-left: 50px;
+}
+
+#rPocket3 {
+    background-color: #E98989;
+    filter: drop-shadow(0px 4px 4px grey);
+    width: 182px; 
+    height: 109px;
+    border-radius: 200px / 100px;
+    position: absolute;
+    top: 4%;
+}
+
+#rPocket4 {
+    background-color: #F0D9B5;
+    width: 200px;
+    height: 55px;
+    top: 0%;
+    position: absolute;
+    z-index: 1;
+}
+
+@media only screen and (max-width: 1000px) {
+    #name {
+        font-size: 32px;
+    }
+
+    #title {
+        font-size: 12px;
+    }
+
+    #tote {
+        width: 284px;
+        height: 457px;
+        position: absolute;
+        top: 90%;
+    }
+    
+    #body {
+        width: 284px;
+        height: 290px;
+    }
+    
+    #handle {
+        width: 142px;
+        height: 289px;
+        border: 10px solid #F0D9B5;
+        border-radius: 170px / 300px;
+    }
+    
+    #pPocket1 {
+        width: 85px;
+        height: 91px;
+        font-size: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #pPocket2 {
+        width: 82px;
+        height: 24px;
+    }
+    
+    #aPocket {
+        width: 56px;
+        height: 65px;
+        font-size: 12px;
+    }
+    
+    #cPocket {
+        width: 102px;
+        height: 41px;
+        font-size: 12px;
+    }
+
+    #rPocket {
+        height: 79px;
+    }
+
+    #rPocket1 {
+        width: 85px;
+        height: 52px;
+    }
+
+    #rPocket2 {
+        font-size: 12px;
+    }
+
+    #rPocket3 {
+        width: 85px; 
+        height: 51px;
+        border-radius: 200px / 100px;
+    }
+
+    #rPocket4 {
+        width: 100px;
+        height: 24px;
+    }
+}

@@ -1,0 +1,69 @@
+#all {
+    font-family: 'K2D';
+}
+
+#logo {
+    float: right;
+}
+
+@media only screen and (min-width: 600px) {
+    section {
+        width: 600px;
+        text-align: center;
+    }
+
+    #org {
+        width: 430px;
+        height: 448px;
+    }
+
+    #idea {
+        width: 496px;
+        height: 338px;
+    }
+
+    #final {
+        width: 287px;
+        height: 308px;
+    }
+
+    .leftSection {
+        padding-left: 10px;
+        padding-top: 100px;
+    }
+
+    #extra {
+       padding-left: 10px;
+       padding-top: 300px;     
+    }
+
+    .rightSection {
+        float: right;
+        padding-right: 10px;
+        margin-bottom: 100px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    section {
+        width: 400px;
+        text-align: center;
+    }
+
+    #org {
+        width: 252px;
+        height: 262px;
+    }
+    
+    #idea {
+        width: 315px;
+        height: 215px;
+    }
+    
+    #final {
+        width: 182px;
+        height: 195px;
+    }
+
+
+}
