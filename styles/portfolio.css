@@ -6,7 +6,19 @@
     float: right;
 }
 
+a {
+    color: black;
+}
+
+h1 {
+    padding-left: 40px;
+}
+
+
 @media only screen and (min-width: 600px) {
+    h1 {
+        font-size: 64px;
+    }
     section {
         width: 600px;
         text-align: center;
@@ -29,7 +41,6 @@
 
     .leftSection {
         padding-left: 10px;
-        padding-top: 100px;
     }
 
     #extra {
@@ -45,6 +56,11 @@
 }
 
 @media only screen and (max-width: 1000px) {
+    h1 {
+        font-size: 35px;
+        padding-top: 60px;
+        text-align: center;
+    }
     section {
         width: 400px;
         text-align: center;

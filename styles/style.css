@@ -2,6 +2,10 @@
     font-family: 'K2D';
 }
 
+a {
+    color: black;;
+}
+
 img {
     float: right;
     margin-right: 10px;
