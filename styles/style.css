@@ -178,6 +178,22 @@ img {
 }
 
 @media only screen and (max-width: 1000px) {
+    .quotation {
+        font-size: 64px;
+    }
+
+    #why {
+        font-size: 16px;
+    }
+
+    #beginning {
+        font-size: 12px;
+    }
+
+    #end {
+        font-size: 12px;
+    }
+
     #name {
         font-size: 32px;
     }
@@ -242,6 +258,9 @@ img {
 
     #rPocket2 {
         font-size: 12px;
+        position: absolute;
+        top: 65%;
+        padding-left: 25px;
     }
 
     #rPocket3 {
