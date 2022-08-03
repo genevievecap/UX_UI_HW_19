@@ -14,10 +14,7 @@
         left: 10%;
     }
 
-    #contact1 {
-        display: none;
-    }
-    .contact {
+    #link {
         display: none;
     }
 }
@@ -25,5 +22,12 @@
 @media only screen and (max-width: 1000px) {
     #resume {
         display: none;
+    }
+
+    #link {
+        padding-top: 100px;
+        margin: 40px;
+        word-break: break-all;
+        text-align: center;
     }
 }

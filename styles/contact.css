@@ -1,0 +1,35 @@
+#all {
+    font-family: "K2D";
+}
+
+#logo {
+    float: right;
+}
+
+.title {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.contact {
+    text-align: center;
+}
+
+
+@media only screen and (min-width: 1000px) {
+    h2 {
+        font-size: 32px;
+    }
+    h1 {
+       font-size: 64px; 
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    h2 {
+        font-size: 25px;
+    }
+    h1 {
+       font-size: 32px; 
+    }
+}
